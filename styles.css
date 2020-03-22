@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.divTitle
+{
+    color:white; 
+    /*float:left; */
+    font-family:"Courier";
+    font-size:80px;
+    /* height:auto; */
+    padding-left: 20px;
+    padding-right: 160px;
+    width:auto;  
+    padding-bottom: 1px;
+}
+
+.divMenuMain
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:24px;
+    /* height:auto; */
+    padding-left: 50px;
+    padding-right: 700px;
+    width:auto;
+    padding-bottom: 120px;
+}
+
+.divGreetingMenuMain
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:40px;
+    /* height:auto; */
+    padding-left: 350px;
+    padding-right: 0px;
+    /*XXX 50px*/
+    width:auto;    
+}
+
+.divFooter
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:25px;
+    /* height:auto; */
+    padding-left: 450px;
+    padding-right: 200px;
+    width:auto;    
+}
+
+.div1Grouping
+{
+    color:white; 
+    /*float:left; */
+    font-family:"Courier";
+    font-size:25px;
+    /* height:auto; */
+    padding-left: 25px;
+    padding-right: 700px;
+    width:auto;  
+    padding-bottom: 10px;    
+    padding-top: 20px; 
+}
+
+.divMenu1Grouping
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 50px;
+    padding-right: 700px;
+    width:auto;
+    padding-bottom: 60px;
+}
+
+.divContact
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 350px;
+    padding-right: 700px;
+    width:auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.divNameApp
+{
+    color:white; 
+    /* float:left; */
+    font-family:"Courier";
+    font-size:35px;
+    /* height:auto; */
+    padding-left: 25px;
+    padding-right: 500px;
+    width:auto;  
+    padding-bottom: 10px;    
+    padding-top: 20px; 
+}
+
+.divWriteupApp
+{
+    color:white; 
+    /*float:left; */
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 25px;
+    padding-right: 25px;
+    width:auto;  
+    padding-bottom: 10px;    
+    padding-top: 20px; 
+}
+
+
+.divTitleBook
+{
+    color:white; 
+    float:left;
+    font-family:"Courier";
+    font-size:25px;
+    /* height:auto; */
+    padding-left: 25px;
+    padding-right: 700px;
+    /*XXX= 600px,700px, 400 */
+    width:auto;  
+    padding-bottom: 10px;    
+    padding-top: 50px;   
+}
+
+.divChaptersBook
+{
+    color:white; 
+    float:left;
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 50px;
+    padding-right: 700px;
+    /*50px */
+    width:auto;  
+    padding-bottom: 0px;    
+    padding-top: 5px;    
+}
+
+.divMenuVideo
+{
+    color:white; 
+    float:left; 
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 50px;
+    padding-right: 50px;
+    /*50px,200px */
+    width:auto;  
+    padding-bottom: 0px;    
+    padding-top: 5px;    
+}
+
+.divTwoMenuVideo
+{
+    color:white; 
+    float:left;
+    font-family:"Courier";
+    font-size:20px;
+    /* height:auto; */
+    padding-left: 50px;
+    padding-right: 900px;
+    /*50px,200px */
+    width:auto;  
+    padding-bottom: 0px;    
+    padding-top: 5px;    
+}
+
+.divTitleVideo
+{
+    color:white; 
+    float:left;
+    /* */
+    font-family:"Courier";
+    font-size:25px;
+    /* height:auto; */
+    padding-left: 25px;
+    /*25px*/
+    padding-right: 50px;
+    /*XXX= 600px,50px */
+    width:auto;   
+    padding-bottom: 10px;    
+    padding-top: 50px;   
+}
+
+.divBreakVideo
+{
+    color:white; 
+    float:left;
+    /* */
+    font-family:"Courier";
+    font-size:25px;
+    /* height:auto; */
+    padding-left: 430px;
+    /*25px*/
+    padding-right: 50px;
+    /*XXX= 600px,50px */
+    width:auto;   
+    padding-bottom: 10px;    
+    padding-top: 10px;   
+}
+
+.divHeader
+{
+height:auto;  
+padding-bottom: 5px;
+padding-left: 5px;
+padding-top: 5px;
+width:1430;
+}
+    .divHeaderLeft
+    {
+    color:gold; 
+    float:left;
+    font-family:georgia;
+    font-size:20px;
+    height:auto; 
+    padding-left: 10px;
+    padding-right: 160px;
+    width:auto;
+    }
+
+    .divHeaderMiddle
+    {
+    color:black; 
+    float:left;
+    font-family:georgia;
+    font-size:13px; 
+    height:auto;
+    padding-right: 160px;
+    width:auto;
+    }
+
+    .divHeaderRight
+    {
+    color:gold;  
+    float:right;
+    font-family:georgia;
+    font-size:20px;
+    height:auto;
+    width:auto;
+    }
+
+.divMiddle
+{
+height:auto;  
+padding-bottom: 5px;
+padding-left: 5px;
+padding-top: 5px;
+width:1430px;
+}
+
+    .divBody
+    {
+    background: red;
+    color:gold;  
+    float:left;
+    height:auto;
+    width:1100px;
+    }
+
+    .divAd
+    {
+    background: blue;
+    color:gold;  
+    float:left;
+    height:auto;
+    width:330px;
+    }
+
+.divFooter
+{
+color:black;
+font-family:georgia;
+font-size:10px;
+padding-top:10px;
+text-align:center;
+height:auto;
+width:auto;
+}
